@@ -1,2 +1,11 @@
-# tomcat_embedded_vertx
-Reproducer for a scenario where we embed vertx in tomcat and we want to verify if vertx endpoints are reachable from a remote server
+# How to create IDE project for eclipse
+
+```
+gradle eclipse
+```
+
+# How to build war and run on tomcat
+
+```
+gradle war tR
+```
